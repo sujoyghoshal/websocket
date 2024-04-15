@@ -1,0 +1,42 @@
+*WebSocket : 
+=> HTTP and WebSocket both are communication protocols used in client-server communication. 
+
+*download cmd 👍
+ $npm i socket.io
+
+*connection ◀️
+URL : https://cdnjs.com/libraries/socket.io
+and copy the script tag and pest the header in the html page .
+
+*what are the pre reserved Events of Socket.io ?
+=>
+ 1.connection
+ 2.disconnect
+ 3.Message
+ 4.Reconnect
+ 5.Ping
+ 6.join
+ 7.Leave
+
+??Client-side Events ?
+=> 1. Connect 
+   2. Connect_error
+   3. Connect_timeout
+   4. Reconnect,..
+
+!chat application use :
+1: custrom events crete on server side and catch on client server.
+2: custrom events crete on client side and catch on  server side.
+
+Todo/ Broadcasting : 
+   how many user connected in our socket-io.
+   Message send all user.
+   is means suppose i have a create a chat application when a new user connected the chat application the have a meassage
+   welcome to chat room but previous user are also show '1 user connected'.. 
+
+   ex: like facebook use many user when all are online then we see green color .
+       or,
+       suppose im foward wp message all contact but i cant message me . that is al so broadcasting .
+
+
+ 
